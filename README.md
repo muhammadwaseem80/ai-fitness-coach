@@ -106,4 +106,11 @@ Bundle the client React bundles and compile the backend `server.ts` into a fast,
 ```bash
 npm run build
 npm run start
-```
+```# AI Fitness Coach
+
+### Screenshots
+
+<img width="1600" height="900" alt="Fitnessapp" src="https://github.com/user-attachments/assets/7951876b-2176-4152-a536-ce5a4f45ab8b" />
+<img width="1600" height="900" alt="fitness 3" src="https://github.com/user-attachments/assets/f49a5785-39c6-4d2c-b568-c1e075501663" />
+<img width="1600" height="900" alt="fitness 2" src="https://github.com/user-attachments/assets/dbf3a682-d2b9-48d9-8c61-1b87fd3d0d2f" />
+  
