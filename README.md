@@ -111,5 +111,20 @@ npm run start
 
 
 
+---
+
+## 📸 Screenshots
+
+### 1. Home Page
+[Home Page](fitness%202.jpeg)
+
+### 2. Workout Page  
+[Workout Page](fitness%203.jpeg)
+
+### 3. Result Page
+[Result Page](fitness%201.jpeg)
+
+
+
 
 
