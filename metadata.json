@@ -1,0 +1,6 @@
+{
+  "name": "AI Fitness Coach",
+  "description": "A premium, fully responsive AI-powered web application that provides personalized workout plans, diet recommendations, BMI analysis, and features a smart fitness chatbot.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

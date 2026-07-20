@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Google AI Studio App</title>
+    <script>
+      // Defensive safeguard for sandboxed iframe environments
+      (function() {
+        try {
+          if (typeof window !== 'undefined') {
+            // Polyfill global for Node libraries that might leak/scan in development
+            if (!window.global) {
+              window.global = window;
+            }
+            
+            // Safeguard window.fetch from read-only write failures
+            const originalFetch = window.fetch;
+            Object.defineProperty(window, 'fetch', {
+              get() { return originalFetch; },
+              set() { 
+                console.warn('Intercepted attempt to overwrite window.fetch in sandboxed environment.');
+              },
+              configurable: true,
+              enumerable: true
+            });
+          }
+        } catch (e) {
+          console.warn('Unable to apply fetch setter safeguard:', e);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
