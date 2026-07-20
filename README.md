@@ -106,12 +106,7 @@ Bundle the client React bundles and compile the backend `server.ts` into a fast,
 ```bash
 npm run build
 npm run start
-
-### Screenshots
-
-![Home Page](https://github.com/user-attachments/assets/7951876b-2176-4152-9536-ce54f45ab8b)
-![Workout Page](https://github.com/user-attachments/assets/f49a5785-39c6-4d2c-b568-c1e875901663)
-![Result Page](https://github.com/user-attachments/assets/dbf3a682-d2b9-48d9-8c61-1b87f3d0d2f)<img width="1600" height="900" 
+ 
 
 
 
